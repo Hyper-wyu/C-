@@ -8,6 +8,7 @@ int main(void)
 	for (a < 0 && a>22)
 	{
 		printf("对不起您输入的楼层不存在，请重新输入！");
+		scanf("%d",&a);
 	}
 	printf("您已到达%d楼,祝您学习愉快！",a);
 	return 0;
